@@ -1,0 +1,14 @@
+import math as m
+x1=int(input("Enter First Point of x coordinate"))
+x2=int(input("Enter Second Point of x coordinate"))
+y1=int(input("Enter First Point of y coordinate"))
+y2=int(input("Enter Second Point of y coordinate"))
+d=m.sqrt(m.pow((x2-x1),2)+m.pow((y2-y1),2))
+print(d)
+
+Output:
+Enter First Point of x coordinate20
+Enter Second Point of x coordinate10
+Enter First Point of y coordinate30
+Enter Second Point of y coordinate40
+14.14213562
