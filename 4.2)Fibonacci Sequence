@@ -20,7 +20,6 @@ print(sum)
 #output:
 
 4613732
-#________________________
 
 #method 2  to print sum of Fibonacci sequence:
 
