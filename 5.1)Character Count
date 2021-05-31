@@ -1,6 +1,7 @@
-"""
-5.1) Implement a python script to count frequency of characters in a given string.
-"""
+#5.1) Implement a python script to count frequency of characters in a given string.
+
+Program:
+
 s=input("enter the string:")
 result = {}
 for letter in s:
@@ -9,6 +10,9 @@ for letter in s:
     else:
           result[letter.lower()] += 1
 print("frequency count of characters in given string:",result)
-#output
+
+
+output:
+
 enter the string: Hello world
 frequency count of characters in given string: {'H': 1, 'e': 1, 'l': 3, 'o': 2, ' ': 1, 'w': 1, 'r': 1, 'd': 1}
