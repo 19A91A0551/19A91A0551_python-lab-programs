@@ -10,7 +10,7 @@ while n>0:
     if rem==0:
         c+=1
     rev=rev*10+rem
-    n=n//10
+    n=n/10
 while rev>0:
     rem=rev%10
     if rem==0:
